@@ -34,7 +34,7 @@ export default function Home() {
             Next.js + Vercel
           </div>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-            Olá, DSM! Aqui é o Furlan
+            Olá, DSM / FATEC! Agora com branch de API serverless em tempo real!
           </h1>
           <p className="text-sm text-slate-500">
             Digite seu nome abaixo para testar a rota de API serverless em tempo
