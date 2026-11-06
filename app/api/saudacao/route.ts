@@ -7,6 +7,7 @@
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const nome = searchParams.get("nome") || "visitante";
+  console.log("API /saudacao chamada em", new Date().toISOString());
 
   return Response.json({
     mensagem: `Olá, ${nome}! Bem-vindo(a) à nuvem ☁️`,

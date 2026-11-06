@@ -5,6 +5,7 @@
 // export const dynamic = "force-dynamic"; // garante resposta calculada a cada requisição, porém esse comando dynamic é redundante e não funciona no next.js 16
 
 export async function GET() {
+  console.log("API /hello chamada em", new Date().toISOString());
   return Response.json({
     mensagem: "Olá! Esta resposta veio da minha API 🚀",
     horario: new Date().toISOString(),
